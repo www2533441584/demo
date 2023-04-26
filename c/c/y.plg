@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: y - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\wzg\AppData\Local\Temp\RSPB837.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/y.pdb" /debug /machine:I386 /out:"Debug/y.exe" /pdbtype:sept 
+.\Debug\y.obj
+]
+Creating command line "link.exe @C:\Users\wzg\AppData\Local\Temp\RSPB837.tmp"
+<h3>Output Window</h3>
+Linking...
+y.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_MSC_VER=1600"; ignored
+y.obj : warning LNK4044: unrecognized option "FAILIFMISMATCH:_ITERATOR_DEBUG_LEVEL=2"; ignored
+y.obj : error LNK2001: unresolved external symbol __imp____iob_func
+y.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+y.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+y.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+y.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(__int64)" (__imp_?width@ios_base@std@@QAE_J_J@Z)
+y.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (__imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z)
+y.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(void)const " (__imp_?width@ios_base@std@@QBE_JXZ)
+y.obj : error LNK2001: unresolved external symbol ___security_cookie
+y.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+y.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+y.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+y.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ)
+Debug/y.exe : fatal error LNK1120: 12 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+y.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
